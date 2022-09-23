@@ -3,17 +3,19 @@ public class DataType {
 
 	public static void main(String[] args) {
 		char c = 'a';
-		System.out.println(c + 3);
+		//System.out.println(c + 3);
 		
 		int i = c + 10;
-		System.out.println(i);
+		//System.out.println(i);
 		
 		i = c;
-		//char abc = i;
+		char abc = (char)i;
 		
 		long l = i;
-		//i = l;
-		
+		l = 12345654321l;
+		i = (int)l;
+		System.out.println(l);
+		System.out.println(i);
 		
 		double d = i;
         // i = d;
